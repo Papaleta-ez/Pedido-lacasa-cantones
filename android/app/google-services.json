@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "585110248731",
+    "project_id": "la-casa-cantones-inventario",
+    "storage_bucket": "la-casa-cantones-inventario.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585110248731:android:09359919ad6902525e47be",
+        "android_client_info": {
+          "package_name": "com.lacasacantones.pedidos_casa_cantones"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwbE_DOgEQOTy_pxHFNaUwacJYiNbRbRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
