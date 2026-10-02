@@ -1,30 +1,79 @@
-// This is a basic Flutter widget test.
-//
-// To perform an interaction with a widget in your test, use the WidgetTester
-// utility in the flutter_test package. For example, you can send tap and scroll
-// gestures. You can also use WidgetTester to find child widgets in the widget
-// tree, read text, and verify that the values of widget properties are correct.
-
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:pedidos_casa_cantones/main.dart';
+import 'package:pedidos_casa_cantones/core/theme.dart';
+import 'package:pedidos_casa_cantones/core/widgets.dart';
+import 'package:pedidos_casa_cantones/core/models.dart';
 
 void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
-
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
-
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
-
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
+  test('receta limita disponibilidad por ingrediente más escaso', () {
+    final p = Product('p', {
+      'active': true,
+      'priceCents': 1000,
+      'recipe': [
+        {'inventoryId': 'a', 'qty': .2},
+        {'inventoryId': 'b', 'qty': .5},
+      ],
+    });
+    expect(
+      p.available({
+        'a': {'stock': 1.0},
+        'b': {'stock': 1.5},
+      }),
+      3,
+    );
+    expect(
+      p.available({
+        'a': {'stock': 1.0},
+        'b': {'stock': 0},
+      }),
+      0,
+    );
+  });
+  test('producto sin precio no puede venderse', () {
+    expect(
+      Product('p', {
+        'active': true,
+        'priceCents': 0,
+        'inventoryId': 'p',
+      }).available({
+        'p': {'stock': 10},
+      }),
+      0,
+    );
+  });
+  testWidgets('PIN requiere cuatro dígitos y admite cero inicial', (
+    tester,
+  ) async {
+    int? result;
+    await tester.pumpWidget(
+      MaterialApp(
+        theme: posTheme,
+        home: Builder(
+          builder: (c) => Scaffold(
+            body: FilledButton(
+              onPressed: () async {
+                result = await keypad(c, 'PIN', pin: true);
+              },
+              child: const Text('Abrir'),
+            ),
+          ),
+        ),
+      ),
+    );
+    await tester.tap(find.text('Abrir'));
+    await tester.pumpAndSettle();
+    expect(
+      tester
+          .widget<FilledButton>(find.widgetWithText(FilledButton, 'Aceptar'))
+          .onPressed,
+      isNull,
+    );
+    for (final key in ['0', '1', '2', '3']) {
+      await tester.tap(find.widgetWithText(FilledButton, key));
+      await tester.pump();
+    }
+    await tester.tap(find.text('Aceptar'));
+    await tester.pumpAndSettle();
+    expect(result, 123);
   });
 }

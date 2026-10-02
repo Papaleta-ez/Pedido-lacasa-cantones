@@ -1,0 +1,23 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function signed() { return request.auth != null; }
+  function owner() { return signed() && request.auth.token.owner == true; }
+  function role(r) { return signed() && exists(/databases/$(database)/documents/devices/$(request.auth.uid)) && get(/databases/$(database)/documents/devices/$(request.auth.uid)).data.active == true && get(/databases/$(database)/documents/devices/$(request.auth.uid)).data.role == r; }
+  function staff() { return owner() || role('mesero'); }
+  match /devices/{uid} { allow read: if owner() || (signed() && request.auth.uid == uid); }
+  match /products/{id} { allow read: if staff(); }
+  match /inventory/{id} { allow read: if staff(); }
+  match /zones/{id} { allow read: if staff(); }
+  match /tables/{id} { allow read: if staff(); }
+  match /settings/{id} { allow read: if staff(); }
+  match /orders/{id} { allow read: if staff(); }
+  match /kitchen/{id} { allow read: if staff() || role('cocina'); }
+  match /invoices/{id} { allow read: if staff(); }
+  match /shifts/{id} { allow read: if staff(); }
+  match /closures/{id} { allow read: if owner(); }
+  match /audit/{id} { allow read: if owner(); }
+  // All writes go through authenticated, role-checked Cloud Functions.
+  match /{document=**} { allow read, write: if false; }
+ }
+}

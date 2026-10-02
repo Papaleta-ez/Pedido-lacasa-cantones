@@ -1,4 +1,4 @@
-name: pedidos_casa_cantones
+﻿name: pedidos_casa_cantones
 description: "Sistema POS para La Casa Cantones"
 publish_to: 'none'
 version: 1.0.0+1
@@ -11,6 +11,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  firebase_auth: ^6.0.0
+  cloud_functions: ^6.0.0
+  pdf: ^3.11.0
+  printing: ^5.14.0
   shared_preferences: ^2.5.5
   firebase_core: ^4.15.0
   cloud_firestore: ^6.10.0
@@ -25,3 +29,6 @@ flutter:
 
   assets:
     - assets/images/logo_casa_cantones.png
+    - assets/fonts/NotoSans-Regular.ttf
+    - assets/fonts/NotoSans-Bold.ttf
+

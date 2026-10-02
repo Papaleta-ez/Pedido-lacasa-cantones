@@ -46,3 +46,21 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Firebase y artefactos locales
+functions/node_modules/
+functions/*debug.log*
+functions/.cache/
+functions/.firebase/
+functions/.env*
+firebase-config.json
+.firebase/
+*service-account*.json
+admin-firebase.json
+*.apk
+
+# Datos y credenciales de pruebas locales
+.local/
+*-debug.log
+*-debug.log.*
+android/.gradle-respaldo-*/

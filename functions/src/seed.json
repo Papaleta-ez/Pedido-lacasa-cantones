@@ -1,0 +1,1200 @@
+{
+  "settings": {
+    "business": {
+      "name": "La Casa Cantones",
+      "ruc": "",
+      "address": "",
+      "phone": "",
+      "currency": "C$",
+      "vatBps": 0,
+      "packagingId": "empaque"
+    }
+  },
+  "products": {
+    "carta_1": {
+      "name": "Cerdo rostizado",
+      "description": "",
+      "category": "Entradas",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_1",
+      "recipe": []
+    },
+    "carta_2": {
+      "name": "Tacos chinos",
+      "description": "",
+      "category": "Entradas",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_2",
+      "recipe": []
+    },
+    "carta_3": {
+      "name": "Wantan frito",
+      "description": "",
+      "category": "Entradas",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_3",
+      "recipe": []
+    },
+    "carta_4": {
+      "name": "Calamar en salsa de soya",
+      "description": "",
+      "category": "Entradas",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_4",
+      "recipe": []
+    },
+    "carta_5": {
+      "name": "Wantons al vapor con salsa de soya",
+      "description": "",
+      "category": "Entradas",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_5",
+      "recipe": []
+    },
+    "carta_6": {
+      "name": "Sopa de maíz con pollo",
+      "description": "",
+      "category": "Sopas",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_6",
+      "recipe": []
+    },
+    "carta_7": {
+      "name": "Sopa agri-picante con tarro",
+      "description": "",
+      "category": "Sopas",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_7",
+      "recipe": []
+    },
+    "carta_8": {
+      "name": "Sopa de buche de pescado",
+      "description": "",
+      "category": "Sopas",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_8",
+      "recipe": []
+    },
+    "carta_9": {
+      "name": "Sopa de mariscos",
+      "description": "",
+      "category": "Sopas",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_9",
+      "recipe": []
+    },
+    "carta_10": {
+      "name": "Sopa de wantan",
+      "description": "",
+      "category": "Sopas",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_10",
+      "recipe": []
+    },
+    "carta_11": {
+      "name": "Sopa de aleta de tiburón",
+      "description": "",
+      "category": "Sopas",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_11",
+      "recipe": []
+    },
+    "carta_12": {
+      "name": "Pollo al curry",
+      "description": "",
+      "category": "Pollo/Pato",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_12",
+      "recipe": []
+    },
+    "carta_13": {
+      "name": "Pollo al estilo Kung Pao",
+      "description": "",
+      "category": "Pollo/Pato",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_13",
+      "recipe": []
+    },
+    "carta_14": {
+      "name": "Pollo en salsa naranja",
+      "description": "",
+      "category": "Pollo/Pato",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_14",
+      "recipe": []
+    },
+    "carta_15": {
+      "name": "Pollo agridulce con piña",
+      "description": "",
+      "category": "Pollo/Pato",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_15",
+      "recipe": []
+    },
+    "carta_16": {
+      "name": "Pollo al vapor con cebollín y jengibre",
+      "description": "",
+      "category": "Pollo/Pato",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_16",
+      "recipe": []
+    },
+    "carta_17": {
+      "name": "Pollo salteado con hongos chinos",
+      "description": "",
+      "category": "Pollo/Pato",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_17",
+      "recipe": []
+    },
+    "carta_18": {
+      "name": "Pollo a la plancha con salsa de pimienta",
+      "description": "",
+      "category": "Pollo/Pato",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_18",
+      "recipe": []
+    },
+    "carta_19": {
+      "name": "Pollo salteado con salsa judías",
+      "description": "",
+      "category": "Pollo/Pato",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_19",
+      "recipe": []
+    },
+    "carta_20": {
+      "name": "Pollo a la plancha con vegetales",
+      "description": "",
+      "category": "Pollo/Pato",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_20",
+      "recipe": []
+    },
+    "carta_21": {
+      "name": "Pato al estilo cantonés",
+      "description": "",
+      "category": "Pollo/Pato",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_21",
+      "recipe": []
+    },
+    "carta_22": {
+      "name": "Pato asado al estilo Pekín",
+      "description": "",
+      "category": "Pollo/Pato",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_22",
+      "recipe": []
+    },
+    "carta_23": {
+      "name": "Carne de res salteada con vegetales",
+      "description": "",
+      "category": "Res",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_23",
+      "recipe": []
+    },
+    "carta_24": {
+      "name": "Carne de res en salsa naranja",
+      "description": "",
+      "category": "Res",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_24",
+      "recipe": []
+    },
+    "carta_25": {
+      "name": "Carne de res en salsa judía",
+      "description": "",
+      "category": "Res",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_25",
+      "recipe": []
+    },
+    "carta_26": {
+      "name": "Carne de res en salsa de ostión",
+      "description": "",
+      "category": "Res",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_26",
+      "recipe": []
+    },
+    "carta_27": {
+      "name": "Carne de res salteada con jalapeños",
+      "description": "",
+      "category": "Res",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_27",
+      "recipe": []
+    },
+    "carta_28": {
+      "name": "Carne de res a la plancha al estilo Szechuan",
+      "description": "",
+      "category": "Res",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_28",
+      "recipe": []
+    },
+    "carta_29": {
+      "name": "Cerdo agridulce",
+      "description": "",
+      "category": "Cerdo",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_29",
+      "recipe": []
+    },
+    "carta_30": {
+      "name": "Costilla de cerdo en salsa judía al vapor",
+      "description": "",
+      "category": "Cerdo",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_30",
+      "recipe": []
+    },
+    "carta_31": {
+      "name": "Costilla de cerdo frita con ajo",
+      "description": "",
+      "category": "Cerdo",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_31",
+      "recipe": []
+    },
+    "carta_32": {
+      "name": "Fajitas de cerdo salteadas con vegetales",
+      "description": "",
+      "category": "Cerdo",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_32",
+      "recipe": []
+    },
+    "carta_33": {
+      "name": "Cerdo salteado con salsa judías",
+      "description": "",
+      "category": "Cerdo",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_33",
+      "recipe": []
+    },
+    "carta_34": {
+      "name": "Filete de pescado con vegetales",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_34",
+      "recipe": []
+    },
+    "carta_35": {
+      "name": "Filete de pescado al vapor",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_35",
+      "recipe": []
+    },
+    "carta_36": {
+      "name": "Pescado entero al vapor con jengibre",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_36",
+      "recipe": []
+    },
+    "carta_37": {
+      "name": "Pescado entero en salsa de ostión",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_37",
+      "recipe": []
+    },
+    "carta_38": {
+      "name": "Pescado frito con salsa picante",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_38",
+      "recipe": []
+    },
+    "carta_39": {
+      "name": "Pescado entero frito con salsa agridulce",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_39",
+      "recipe": []
+    },
+    "carta_40": {
+      "name": "Bolitas de pescado con vegetales",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_40",
+      "recipe": []
+    },
+    "carta_41": {
+      "name": "Langosta a la plancha al estilo Szechuan",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_41",
+      "recipe": []
+    },
+    "carta_42": {
+      "name": "Langosta con jengibre y cebollín",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_42",
+      "recipe": []
+    },
+    "carta_43": {
+      "name": "Langosta en salsa judía",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_43",
+      "recipe": []
+    },
+    "carta_44": {
+      "name": "Mariscada a la plancha",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_44",
+      "recipe": []
+    },
+    "carta_45": {
+      "name": "Camarones salteados con semilla de marañón",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_45",
+      "recipe": []
+    },
+    "carta_46": {
+      "name": "Camarones al estilo Kung Pao",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_46",
+      "recipe": []
+    },
+    "carta_47": {
+      "name": "Camarones fritos al estilo chino",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_47",
+      "recipe": []
+    },
+    "carta_48": {
+      "name": "Camarones medianos a la plancha al estilo Szechuan",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_48",
+      "recipe": []
+    },
+    "carta_49": {
+      "name": "Camarones medianos con salsa agridulce",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_49",
+      "recipe": []
+    },
+    "carta_50": {
+      "name": "Calamar en salsa judía",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_50",
+      "recipe": []
+    },
+    "carta_51": {
+      "name": "Calamar frito al estilo chino",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_51",
+      "recipe": []
+    },
+    "carta_52": {
+      "name": "Calamar a la plancha al estilo Szechuan",
+      "description": "",
+      "category": "Mariscos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_52",
+      "recipe": []
+    },
+    "carta_53": {
+      "name": "Tofu al estilo mapo con carne de res molida",
+      "description": "",
+      "category": "Tofu y vegetales",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_53",
+      "recipe": []
+    },
+    "carta_54": {
+      "name": "Tofu crocante con salsa agridulce",
+      "description": "",
+      "category": "Tofu y vegetales",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_54",
+      "recipe": []
+    },
+    "carta_55": {
+      "name": "Lo han chai vegetales con tofu",
+      "description": "",
+      "category": "Tofu y vegetales",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_55",
+      "recipe": []
+    },
+    "carta_56": {
+      "name": "Tofu al vapor con filete de pescado",
+      "description": "",
+      "category": "Tofu y vegetales",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_56",
+      "recipe": []
+    },
+    "carta_57": {
+      "name": "Tofu frito en salsa de hongo y cerdo",
+      "description": "",
+      "category": "Tofu y vegetales",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_57",
+      "recipe": []
+    },
+    "carta_58": {
+      "name": "Vegetales con ajo",
+      "description": "",
+      "category": "Tofu y vegetales",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_58",
+      "recipe": []
+    },
+    "carta_59": {
+      "name": "Vegetales con salsa de ostión",
+      "description": "",
+      "category": "Tofu y vegetales",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_59",
+      "recipe": []
+    },
+    "carta_60": {
+      "name": "Vegetales con hongos chinos",
+      "description": "",
+      "category": "Tofu y vegetales",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_60",
+      "recipe": []
+    },
+    "carta_61": {
+      "name": "Brócoli salteado con ajo",
+      "description": "",
+      "category": "Tofu y vegetales",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_61",
+      "recipe": []
+    },
+    "carta_62": {
+      "name": "Arroz al vapor con salsa de ostión",
+      "description": "",
+      "category": "Arroz y fideos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_62",
+      "recipe": []
+    },
+    "carta_63": {
+      "name": "Arroz frito al estilo cantonés",
+      "description": "",
+      "category": "Arroz y fideos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_63",
+      "recipe": []
+    },
+    "carta_64": {
+      "name": "Chow mein de la casa",
+      "description": "",
+      "category": "Arroz y fideos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_64",
+      "recipe": []
+    },
+    "carta_65": {
+      "name": "Chop suey de la casa",
+      "description": "",
+      "category": "Arroz y fideos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_65",
+      "recipe": []
+    },
+    "carta_66": {
+      "name": "Fideo de arroz al estilo Singapur",
+      "description": "",
+      "category": "Arroz y fideos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "carta_66",
+      "recipe": []
+    },
+    "combo_deluxe": {
+      "name": "Combo Deluxe · 10 personas",
+      "description": "Arroz chino, chop suey, sopa wantan, pollo, costilla de cerdo con ajo, carne con vegetales, cerdo en salsa judía, camarones y entrada.",
+      "category": "Combos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "combo_deluxe",
+      "recipe": []
+    },
+    "combo_super": {
+      "name": "Super Combo · 8 personas",
+      "description": "Arroz chino, chop suey, sopa wantan, carne con vegetales, pollo, camarones y entrada.",
+      "category": "Combos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "combo_super",
+      "recipe": []
+    },
+    "combo_familiar": {
+      "name": "Combo Familiar · 6 personas",
+      "description": "Res con vegetales, arroz cantonés, chop suey, pollo agridulce y 6 wantan.",
+      "category": "Combos",
+      "priceCents": 0,
+      "active": true,
+      "esComida": true,
+      "inventoryId": "combo_familiar",
+      "recipe": []
+    }
+  },
+  "inventory": {
+    "empaque": {
+      "name": "Empaque para llevar",
+      "unit": "unidad",
+      "stock": 0,
+      "low": 20
+    },
+    "carta_1": {
+      "name": "Cerdo rostizado",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_2": {
+      "name": "Tacos chinos",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_3": {
+      "name": "Wantan frito",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_4": {
+      "name": "Calamar en salsa de soya",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_5": {
+      "name": "Wantons al vapor con salsa de soya",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_6": {
+      "name": "Sopa de maíz con pollo",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_7": {
+      "name": "Sopa agri-picante con tarro",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_8": {
+      "name": "Sopa de buche de pescado",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_9": {
+      "name": "Sopa de mariscos",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_10": {
+      "name": "Sopa de wantan",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_11": {
+      "name": "Sopa de aleta de tiburón",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_12": {
+      "name": "Pollo al curry",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_13": {
+      "name": "Pollo al estilo Kung Pao",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_14": {
+      "name": "Pollo en salsa naranja",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_15": {
+      "name": "Pollo agridulce con piña",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_16": {
+      "name": "Pollo al vapor con cebollín y jengibre",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_17": {
+      "name": "Pollo salteado con hongos chinos",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_18": {
+      "name": "Pollo a la plancha con salsa de pimienta",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_19": {
+      "name": "Pollo salteado con salsa judías",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_20": {
+      "name": "Pollo a la plancha con vegetales",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_21": {
+      "name": "Pato al estilo cantonés",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_22": {
+      "name": "Pato asado al estilo Pekín",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_23": {
+      "name": "Carne de res salteada con vegetales",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_24": {
+      "name": "Carne de res en salsa naranja",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_25": {
+      "name": "Carne de res en salsa judía",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_26": {
+      "name": "Carne de res en salsa de ostión",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_27": {
+      "name": "Carne de res salteada con jalapeños",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_28": {
+      "name": "Carne de res a la plancha al estilo Szechuan",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_29": {
+      "name": "Cerdo agridulce",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_30": {
+      "name": "Costilla de cerdo en salsa judía al vapor",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_31": {
+      "name": "Costilla de cerdo frita con ajo",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_32": {
+      "name": "Fajitas de cerdo salteadas con vegetales",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_33": {
+      "name": "Cerdo salteado con salsa judías",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_34": {
+      "name": "Filete de pescado con vegetales",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_35": {
+      "name": "Filete de pescado al vapor",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_36": {
+      "name": "Pescado entero al vapor con jengibre",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_37": {
+      "name": "Pescado entero en salsa de ostión",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_38": {
+      "name": "Pescado frito con salsa picante",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_39": {
+      "name": "Pescado entero frito con salsa agridulce",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_40": {
+      "name": "Bolitas de pescado con vegetales",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_41": {
+      "name": "Langosta a la plancha al estilo Szechuan",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_42": {
+      "name": "Langosta con jengibre y cebollín",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_43": {
+      "name": "Langosta en salsa judía",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_44": {
+      "name": "Mariscada a la plancha",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_45": {
+      "name": "Camarones salteados con semilla de marañón",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_46": {
+      "name": "Camarones al estilo Kung Pao",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_47": {
+      "name": "Camarones fritos al estilo chino",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_48": {
+      "name": "Camarones medianos a la plancha al estilo Szechuan",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_49": {
+      "name": "Camarones medianos con salsa agridulce",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_50": {
+      "name": "Calamar en salsa judía",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_51": {
+      "name": "Calamar frito al estilo chino",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_52": {
+      "name": "Calamar a la plancha al estilo Szechuan",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_53": {
+      "name": "Tofu al estilo mapo con carne de res molida",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_54": {
+      "name": "Tofu crocante con salsa agridulce",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_55": {
+      "name": "Lo han chai vegetales con tofu",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_56": {
+      "name": "Tofu al vapor con filete de pescado",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_57": {
+      "name": "Tofu frito en salsa de hongo y cerdo",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_58": {
+      "name": "Vegetales con ajo",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_59": {
+      "name": "Vegetales con salsa de ostión",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_60": {
+      "name": "Vegetales con hongos chinos",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_61": {
+      "name": "Brócoli salteado con ajo",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_62": {
+      "name": "Arroz al vapor con salsa de ostión",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_63": {
+      "name": "Arroz frito al estilo cantonés",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_64": {
+      "name": "Chow mein de la casa",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_65": {
+      "name": "Chop suey de la casa",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "carta_66": {
+      "name": "Fideo de arroz al estilo Singapur",
+      "unit": "porción",
+      "stock": 0,
+      "low": 5
+    },
+    "combo_deluxe": {
+      "name": "Combo Deluxe · 10 personas",
+      "unit": "combo",
+      "stock": 0,
+      "low": 2
+    },
+    "combo_super": {
+      "name": "Super Combo · 8 personas",
+      "unit": "combo",
+      "stock": 0,
+      "low": 2
+    },
+    "combo_familiar": {
+      "name": "Combo Familiar · 6 personas",
+      "unit": "combo",
+      "stock": 0,
+      "low": 2
+    }
+  },
+  "zones": {
+    "salon": {
+      "name": "Salón",
+      "width": 12,
+      "height": 8
+    },
+    "terraza": {
+      "name": "Terraza",
+      "width": 10,
+      "height": 6
+    },
+    "afuera": {
+      "name": "Afuera",
+      "width": 10,
+      "height": 6
+    }
+  },
+  "tables": {
+    "m1": {
+      "name": "Mesa 1",
+      "zoneId": "salon",
+      "side": 1.3,
+      "x": 1.0,
+      "y": 1.0,
+      "status": "free",
+      "orderId": null
+    },
+    "m2": {
+      "name": "Mesa 2",
+      "zoneId": "salon",
+      "side": 1.3,
+      "x": 4.5,
+      "y": 1.0,
+      "status": "free",
+      "orderId": null
+    },
+    "m3": {
+      "name": "Mesa 3",
+      "zoneId": "salon",
+      "side": 1.3,
+      "x": 8.0,
+      "y": 1.0,
+      "status": "free",
+      "orderId": null
+    },
+    "m4": {
+      "name": "Mesa 4",
+      "zoneId": "salon",
+      "side": 1.3,
+      "x": 1.0,
+      "y": 4.5,
+      "status": "free",
+      "orderId": null
+    },
+    "m5": {
+      "name": "Mesa 5",
+      "zoneId": "salon",
+      "side": 1.3,
+      "x": 4.5,
+      "y": 4.5,
+      "status": "free",
+      "orderId": null
+    },
+    "m6": {
+      "name": "Mesa 6",
+      "zoneId": "salon",
+      "side": 1.3,
+      "x": 8.0,
+      "y": 4.5,
+      "status": "free",
+      "orderId": null
+    }
+  }
+}
